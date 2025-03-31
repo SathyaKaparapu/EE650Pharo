@@ -1,0 +1,1 @@
+Object subclass: #UserManager	instanceVariableNames: 'users'	classVariableNames: ''	package: 'EE650Pharo-AuthSystem'!!UserManager methodsFor: 'initialization'!initialize    super initialize.    users := Dictionary new.! !
